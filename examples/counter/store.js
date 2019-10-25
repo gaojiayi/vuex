@@ -14,7 +14,7 @@ const state = {
 // first argument, followed by additional payload arguments.
 // mutations must be synchronous and can be recorded by plugins
 // for debugging purposes.
-const mutations = {
+const mutations = {  // mutation是变更状态的地方，必须是同步操作
   increment (state) {
     state.count++
   },
